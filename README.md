@@ -38,7 +38,7 @@ The application provides the following endpoints:
   - **Response Sample**:
     ```json
     {
-      "status": 00,
+      "status": "00",
       "success": "true",
 	  "message": "Bulk Uploaded successfully",
 	  "data": "[]"
@@ -55,7 +55,7 @@ This API endpoint allows you to upload a CSV file of vehicle data all at once. T
     ```json
     {
       "frequency": "Weekly/Monthly/Daily",
-	  "startDate":"2024-04-19";
+	  "startDate":"2024-04-19",
 	  "endDate":"2024-03-04",
 	  "page":"1"
     }
